@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'modern-normalize/modern-normalize.css';
-import { App } from 'components/App';
-import { Profil } from 'components/Profile';
+// import { App } from 'App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Profil />
   </React.StrictMode>,
   document.getElementById('root')
 );
