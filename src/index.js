@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'modern-normalize/modern-normalize.css';
 import { App } from 'components/App';
 import { Profil } from 'components/Profile';
 import reportWebVitals from './reportWebVitals';
