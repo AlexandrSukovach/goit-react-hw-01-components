@@ -11,7 +11,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      goit-react-hw-01-components
+      react-hw-01-components
     </div>
   );
 };
