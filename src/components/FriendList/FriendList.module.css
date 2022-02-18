@@ -1,0 +1,32 @@
+
+.friendList{
+
+}
+.friend_list{
+
+}
+.item{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.status_false{
+   display: block;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+background-color: rgb(250, 11, 11);
+}
+.status_true{
+   display: block;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   background-color: green;
+}
+.avatar{
+
+}
+.name{
+
+}

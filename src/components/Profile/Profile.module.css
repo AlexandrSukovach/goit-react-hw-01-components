@@ -1,0 +1,44 @@
+
+.profile{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(224, 222, 222);
+   padding-top: 50px;
+}
+.description{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+}
+.avatar{
+   display: block;
+max-width: 400px;
+}
+.name{
+
+}
+.tag{
+
+}
+.location{
+
+}
+.stats{
+display: flex;
+padding-left: 0;
+}
+.stats li{
+   display: flex;
+   flex-direction: column;
+   width: 100px;
+}
+.label{
+   
+  
+}
+.quantity{
+ 
+ 
+}
