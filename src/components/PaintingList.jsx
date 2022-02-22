@@ -24,6 +24,7 @@ PaintingList.propTypes = {
    items: PropTypes.arrayOf(
       PropTypes.shape({
          id: PropTypes.string.isRequired,
+         title: PropTypes.string.isRequired,
       }),
    ),
 };

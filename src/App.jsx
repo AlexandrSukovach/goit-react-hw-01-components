@@ -11,14 +11,9 @@ import data from './data.json';
 import Statistics from './components/Statistics/Statistics';
 import friends from './friends.json';
 import FriendList from './components/FriendList/FriendList';
-// const colorPickerOptions = [
-//   { label: 'red', color: '#F44336' },
-//   { label: 'green', color: '#4CAF50' },
-//   { label: 'blue', color: '#2196F3' },
-//   { label: 'grey', color: '#607D8B' },
-//   { label: 'pink', color: '#E91E63' },
-//   { label: 'indigo', color: '#3F51B5' },
-// ];
+import transactions from './transactions.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+
 
 export default function App() {
   return (
@@ -31,28 +26,18 @@ export default function App() {
       <Box type="large" />
       <ColorPicker options={colorPickerOptions} />
       <PaintingList items={paintings} />
-      <Profile  options={user} />
-      <Statistics options={data} />
-      <FriendList options={friends}/>
+      <Profile  username={user.username}
+      tag={user.tag}
+      location={user.location}
+      avatar={user.avatar}
+      stats={user.stats} />
+      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
+      {/* <Statistics options={data} /> */}
+      <FriendList friends={friends}/>
+      <TransactionHistory items={transactions}/>
     </Container>
   );
 }
 
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         textTransform: 'uppercase',
-//         color: '#010101',
-//       }}
-//     >
-//       react-hw-01-components
-//     </div>
-//   );
-// };
 
