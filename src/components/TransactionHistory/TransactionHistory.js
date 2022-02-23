@@ -12,7 +12,6 @@ function TransactionHistory({ items }) {
                <th>Currency</th>
             </tr>
          </thead>
-
          <tbody >
             {items.map(item => (
                <tr key={item.id}>
@@ -22,7 +21,6 @@ function TransactionHistory({ items }) {
                </tr>
             ))}
          </tbody>
-
       </table>
    );
 }
