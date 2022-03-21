@@ -1,33 +1,30 @@
-
-
-.transaction_history{
-   border: 1px solid #eee;
-	table-layout: fixed;
-	width: 100%;
-   max-width: 700px;
-	margin-bottom: 20px;
-   margin:0 auto ;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	border-radius: 5px;
+.transaction_history {
+  border: 1px solid #eee;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 700px;
+  /* margin-bottom: 20px; */
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
-.transaction_history th{
-	font-weight: bold;
-	padding: 5px;
-	background: #97f1fd;
-	border: 1px solid #dddddd;
-	text-transform: uppercase;
+.transaction_history th {
+  font-weight: bold;
+  padding: 5px;
+  background: #97f1fd;
+  border: 1px solid #dddddd;
+  text-transform: uppercase;
 }
-.transaction_history td{
-   padding: 5px 10px;
-	border: 1px solid #eee;
-	text-align: center;
-	text-transform: capitalize;
+.transaction_history td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .transaction_history tbody tr:nth-child(even) {
-	background: #faf4f4;
+  background: #faf4f4;
 }
 .transaction_history tbody tr:nth-child(odd) {
-	background: rgb(226, 226, 226);
+  background: rgb(226, 226, 226);
 }
-
