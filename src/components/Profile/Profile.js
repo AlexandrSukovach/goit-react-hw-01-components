@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Profile.module.css';
-import { FcSynchronize } from 'react-icons/fc';
+import { BiDotsHorizontalRounded } from 'react-icons/bi';
 
 function Profile({ tag, username, location, avatar, stats }) {
   return (
@@ -8,7 +8,7 @@ function Profile({ tag, username, location, avatar, stats }) {
       <div className={s.profile}>
         <div className={s.description}>
           <img src={avatar} alt="User avatar" className={s.avatar} />
-          <FcSynchronize size={30} />
+          <BiDotsHorizontalRounded size={30} style={{ color: 'grey' }} />
           <p className={s.name}>{username}</p>
           <p className={s.tag}>{tag}@pmarica</p>
           <p className={s.location}>{location}</p>
